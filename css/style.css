@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+::selection {
+  background: #ffbe33;
+  color: #fff;
+}
+
+.heading h2 {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+/* start nav home */
+nav {
+  background-image: url(../images/hero-bg.jpg);
+  background-size: cover;
+}
+
+/* end nav home */
+
+
+/* start header home */
+
+.header {
+  background-image: url(../images/hero-bg.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header .text-box h1 {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.header .text-box .btn {
+  background: #ffbe33;
+}
+
+/* end header home */
+
+
+/* start discount home */
+
+.discount .box {
+  background: #222831;
+  width: 100%;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 7px;
+}
+
+.discount .img-box {
+  width: 200px;
+  margin-right: 30px;
+}
+
+.discount .img-box img {
+  border-radius: 50%;
+  border: 6px solid #ffbe33;
+}
+
+.discount .text-box h4 {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.discount .text-box h4 span {
+  font-size: 50px;
+}
+
+/* end discount home */
+
+
+/* start Menu home */
+
+.menu .card {
+  background: #222831;
+  border: none;
+  border-radius: 30px;
+  height: 400px;
+  margin: 20px auto;
+}
+
+.menu .card .img-box {
+  background: #f1f2f3;
+  padding: 20px 50px;
+  border-radius: 30px 30px 0 30px;
+}
+
+.menu .text-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* end Menu home */
+
+
+/* start About-us home */
+
+.About-us .box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.About-us .img-box {
+  width: 100px;
+  margin-right: 10px;
+}
+
+.About-us .img-box img {
+  border-radius: 50%;
+}
+
+/* end About-us home */
+
+
+/* start footer home */
+
+.footer {
+  background: #222831;
+  padding: 60px 0;
+}
+
+.footer h3 {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.footer a {
+  color: #fff;
+  margin-bottom: 7px;
+}
+
+/* end footer home */
